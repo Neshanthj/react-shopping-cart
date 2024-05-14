@@ -1,0 +1,59 @@
+.backgroundClr{
+  background-color: #efedf2;
+}
+.SelectTag{
+  background-color: #efedf2;
+  border : 1px solid rgb(14, 14, 14);
+  width: 35px;
+  border-radius: 5px;
+  
+}
+option {
+  overflow-y: scroll;
+}
+.RemoveButton{
+  background-color: #efedf2;
+  color: red;
+  border: none;
+}
+/* App.css */
+
+.view-product-header {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.select-product-info {
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+.product-dropdown {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+/* Styling for the dropdown options */
+.product-dropdown option {
+  background-color: #fff;
+  border-color: #888;
+  color: #333;
+}
+
+.product-dropdown.form-select:hover,
+.product-dropdown.form-select:focus {
+  border-color: #888;
+}
