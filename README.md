@@ -20,4 +20,4 @@ the file runs in this url -http://localhost:5173/
 deployed my task 
 
 deployed link
--
+-https://fascinating-chebakia-edda39.netlify.app/
